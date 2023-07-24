@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/image-edge": "1.0.0-rc.1-28164352.ad7c010",
+    "@nuxtjs/tailwindcss": "6.8.0",
+    "nuxt": "3.6.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "consola": "^3.0.1"
+    }
+  }
+}
